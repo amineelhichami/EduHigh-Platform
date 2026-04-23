@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" sizes="32x32" href="EduHigh_Logo.jpg">
+    <title>EduHigh - Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>EduHigh.</div>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="bac.html" >Bac</a>
+                <a href="first-bac.html">1st Year Bac</a>
+                <a href="common-core.html">Common Core</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section >
+            <div >Get in Touch</div>
+            <h1>Ready to Start Your <br><span >Learning Journey?</span></h1>
+            <p>Questions about courses or need help? Fill the form below or email us.</p>
+        </section>
+        <section >
+            <h2>Contact Us</h2>
+                <form id="contactForm" method="POST">
+                <div>
+                    <label for="name">Full Name :</label>
+                    <br>
+                    <input type="text" id="name" name="name" required pattern="[a-zA-ZÀ-ÿ\s\-']{2,50}">
+                </div>
+                <div>
+                    <label for="email">E-mail : </label>
+                    <br>
+                    <input id="email" name="email" type="email" pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}" placeholder="example@gmail.com" title="Valid Email: example@gmail.com" required>
+                </div>
+                <div>
+                    <label for="tel">Phone :</label>
+                    <br>
+                    <input id="tel" name="tel" type="tel" placeholder="05/06/07 XXXXXXX" pattern="^(05|06|07)\d{8}$" maxlength="10" title="Format: 06XXXXXXXX or 05XXXXXXXX or 07XXXXXXXX" required>
+                </div>
+                <div>
+                    <label for="message">Message :</label>
+                    <br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section >
+            <h2 >Contact Info</h2>
+            <div>
+                <div>
+                    <h3>📧 Email</h3>
+                    <p>Email: <a href="mailto:contact.eduhigh@gmail.com">contact.eduhigh@gmail.com</a></p>
+                </div>
+                <div>
+                    <h3>📱 Phone</h3>
+                    <p>WhatsApp: <a href="https://wa.me/212XXXXXXXXX">WhatsApp</a></p>
+                </div>
+                <div>
+                    <h3>📍 Location</h3>
+                    <p>Marrakech, Morocco</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Thank you for choosing EduHigh! </p>
+    </footer>
+</body>
+</html>
